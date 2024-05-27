@@ -56,3 +56,36 @@ let strsomeNumber = String(someNumber)
 console.log(strsomeNumber)//33
 
 console.log(typeof strsomeNumber)//string
+
+
+//*******************Operations*****************
+
+let value =3
+let negValue = -value
+console.log(value)//3
+console.log(negValue)//-3
+
+let str1='hi'
+let str2='eshani'
+console.log(str1+str2)//hieshani
+console.log(1+"2")//12
+console.log("1"+2)//12
+console.log("1"+2+2)//122
+console.log(1+2+"2")//32
+
+console.log(true)//true
+console.log(+true)//1
+
+//console.log(true+)//errro
+console.log(+"")//0
+
+let a,b,c
+a=b=c =2+2
+
+let gameCounter =100
+gameCounter++
+console.log(gameCounter)//101
+++gameCounter
+console.log(gameCounter)//102
+
+//link to study https://tc39.es/ecma262/
